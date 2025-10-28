@@ -394,7 +394,7 @@ def generate_tick_report(results, output_file='tick_analysis_summary.txt'):
 
     # Save report
     report_text = "\n".join(report)
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         f.write(report_text)
 
     print(f"\n✓ Summary report saved to: {output_file}")
@@ -569,7 +569,7 @@ Examples:
             json_r['date'] = r['date']
         json_results.append(json_r)
 
-    with open('tick_analysis_results.json', 'w') as f:
+    with open('tick_analysis_results.json', 'w', encoding='utf-8') as f:
         json.dump(json_results, f, indent=2)
 
     print("✓ Results saved to tick_analysis_results.json")
