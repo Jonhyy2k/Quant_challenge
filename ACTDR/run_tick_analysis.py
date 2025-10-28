@@ -3,8 +3,13 @@
 
 Specific time window (intraday):
     python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15 --start-time "09:30:00" --end-time "10:30:00"
+corre primeiro:
+emerging_markets_correlation.py
 
-Corre esta
+vai dar o csv
+
+Depois corre esta
+
 python run_tick_analysis.py --use-csv --min-correlation 0.70 \
     --start-date 2024-10-01 --end-date 2024-12-31
 """
