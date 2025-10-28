@@ -1,34 +1,12 @@
 #!/usr/bin/env python3
 """
-Tick-Level Lag Detection Analysis
-High-frequency analysis using Bloomberg tick data for millisecond-precision lag detection
-
-USAGE:
-======
-
-Single trading day analysis:
-    python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15
 
 Specific time window (intraday):
     python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15 --start-time "09:30:00" --end-time "10:30:00"
 
-Multiple trading days:
-    python run_tick_analysis.py --pair COPX,EPU --start-date 2025-01-13 --end-date 2025-01-17
-
-Batch analysis (all pairs):
-    python run_tick_analysis.py --all-pairs --date 2025-01-15
-
-Batch analysis (top N pairs):
-    python run_tick_analysis.py --top 5 --date 2025-01-15
-
-Sample data (for testing):
-    python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15 --start-time "09:30:00" --end-time "09:45:00" --sample 1000
-
-IMPORTANT:
-- Bloomberg Terminal must be running
-- Tick data is LARGE - start with small time windows
-- Recommended: 1-hour windows for initial testing
-- Full trading day (6.5 hours) = millions of ticks
+Corre esta
+python run_tick_analysis.py --use-csv --min-correlation 0.70 \
+    --start-date 2024-10-01 --end-date 2024-12-31
 """
 
 import argparse
@@ -55,22 +33,6 @@ TOP_PAIRS = [
 
 
 def load_pairs_from_csv(csv_path="em_pairs_detailed.csv", min_correlation=0.65, max_pairs=None):
-    """
-    Load pairs from CSV file filtered by correlation threshold
-
-    Parameters:
-    -----------
-    csv_path : str
-        Path to CSV file with pairs
-    min_correlation : float
-        Minimum correlation threshold (default 0.65)
-    max_pairs : int, optional
-        Maximum number of pairs to return (takes top N by correlation)
-
-    Returns:
-    --------
-    list : List of (ticker1, ticker2) tuples
-    """
     if not os.path.exists(csv_path):
         raise FileNotFoundError(f"CSV file not found: {csv_path}")
 
@@ -93,20 +55,6 @@ def load_pairs_from_csv(csv_path="em_pairs_detailed.csv", min_correlation=0.65, 
 
 
 def resample_tick_data(tick_data, interval_ms=1):
-    """
-    Resample tick data to regular intervals
-
-    Parameters:
-    -----------
-    tick_data : pd.DataFrame
-        Tick data with 'value' column
-    interval_ms : int
-        Resampling interval in milliseconds (default 1000 = 1 second)
-
-    Returns:
-    --------
-    pd.DataFrame : Resampled data
-    """
     rule = f"{interval_ms}ms"
     resampled = tick_data["value"].resample(rule).last().ffill()
     return pd.DataFrame({"close": resampled})
@@ -115,26 +63,6 @@ def resample_tick_data(tick_data, interval_ms=1):
 def analyze_tick_pair(
     ticker1, ticker2, start_datetime, end_datetime, resample_ms=None, sample_size=None
 ):
-    """
-    Run tick-level lag analysis on a pair
-
-    Parameters:
-    -----------
-    ticker1, ticker2 : str
-        Asset tickers
-    start_datetime : str or datetime
-        Start datetime (YYYY-MM-DD HH:MM:SS)
-    end_datetime : str or datetime
-        End datetime
-    resample_ms : int, optional
-        Resample ticks to this interval (milliseconds). If None, uses raw ticks
-    sample_size : int, optional
-        Limit to first N ticks (for testing)
-
-    Returns:
-    --------
-    dict : Analysis results
-    """
     print("\n" + "=" * 80)
     print(f"TICK ANALYSIS: {ticker1} <--> {ticker2}")
     print("=" * 80)
@@ -222,24 +150,6 @@ def analyze_multiple_days(
     trading_end="16:00:00",
     resample_ms=1,
 ):
-    """
-    Analyze tick data across multiple trading days
-
-    Parameters:
-    -----------
-    ticker1, ticker2 : str
-        Asset tickers
-    start_date, end_date : str
-        Date range (YYYY-MM-DD)
-    trading_start, trading_end : str
-        Trading hours (HH:MM:SS)
-    resample_ms : int
-        Resampling interval in milliseconds
-
-    Returns:
-    --------
-    list : Results for each day
-    """
     all_results = []
     start = datetime.strptime(start_date, "%Y-%m-%d")
     end = datetime.strptime(end_date, "%Y-%m-%d")
@@ -277,16 +187,6 @@ def analyze_multiple_days(
 
 
 def generate_tick_report(results, output_file="tick_analysis_summary.txt"):
-    """
-    Generate comprehensive summary report for tick analysis
-
-    Parameters:
-    -----------
-    results : list
-        List of analysis results
-    output_file : str
-        Path to save report
-    """
     report = []
     report.append("=" * 100)
     report.append("TICK-LEVEL LAG DETECTION ANALYSIS - SUMMARY REPORT")
@@ -423,26 +323,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Run tick-level lag detection analysis using Bloomberg data",
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Examples:
-  # Single day, full trading hours
-  python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15
-
-  # Single day, first hour only (recommended for testing)
-  python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15 --start-time "09:30:00" --end-time "10:30:00"
-
-  # Multiple days
-  python run_tick_analysis.py --pair COPX,EPU --start-date 2025-01-13 --end-date 2025-01-17
-
-  # Sample data (first 1000 ticks only)
-  python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15 --sample 1000
-
-  # All pairs (be careful - lots of data!)
-  python run_tick_analysis.py --all-pairs --date 2025-01-15 --start-time "09:30:00" --end-time "10:00:00"
-
-  # Top 3 pairs (be careful - lots of data!)
-  python run_tick_analysis.py --top 3 --date 2025-01-15 --start-time "09:30:00" --end-time "10:00:00"
-        """,
+        epilog,
     )
 
     parser.add_argument(
