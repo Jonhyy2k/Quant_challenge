@@ -23,35 +23,25 @@ from datetime import datetime, timedelta
 import os
 import json
 
-# Import our modules
 from lag_detection import LagDetector, convert_lag_to_time
 from data_fetcher_yfinance import fetch_pair_data_yfinance
 from data_fetcher_bloomberg import fetch_pair_data_bloomberg, get_bloomberg_ticker
 from lag_visualization import plot_comprehensive_analysis, create_summary_dashboard
 
-
-# Top pairs identified from correlation analysis (in priority order)
 TOP_PAIRS = [
-    # Commodity-EM pairs (HIGHEST PRIORITY)
-    ('COPX', 'EPU'),    # Copper vs Peru - Corr: 0.84
-    ('PICK', 'VALE'),   # Metals vs Vale - Corr: 0.77W
-    ('PICK', 'DEM'),    # Metals vs EM Dividend - Corr: 0.80
-    ('GDX', 'EPU'),     # Gold vs Peru - Corr: 0.69
-    ('COPX', 'VALE'),   # Copper vs Vale - Corr: 0.66
-
-    # Brazilian stock pairs
-    ('SID', 'VALE'),    # Steel vs Mining - Corr: 0.73
-    ('ITUB', 'BBD'),    # Banks - Corr: 0.71
-    ('EWZ', 'ITUB'),    # Brazil ETF vs Bank - Corr: 0.83
-
-    # Chinese stock pairs
-    ('BABA', 'JD'),     # Alibaba vs JD - Corr: 0.73
-    ('BABA', 'KWEB'),   # Alibaba vs China Internet - Corr: 0.83
-    ('JD', 'KWEB'),     # JD vs China Internet - Corr: 0.83
-
-    # Broad EM pairs (control group)
-    ('EEM', 'IEMG'),    # Broad EM ETFs - Corr: 0.99
-    ('FXI', 'MCHI'),    # China ETFs - Corr: 0.98
+    ('COPX', 'EPU'),
+    ('PICK', 'VALE'),
+    ('PICK', 'DEM'),
+    ('GDX', 'EPU'),
+    ('COPX', 'VALE'),
+    ('SID', 'VALE'),
+    ('ITUB', 'BBD'),
+    ('EWZ', 'ITUB'),
+    ('BABA', 'JD'),
+    ('BABA', 'KWEB'),
+    ('JD', 'KWEB'),
+    ('EEM', 'IEMG'),
+    ('FXI', 'MCHI'),
 ]
 
 
@@ -75,7 +65,6 @@ def analyze_pair(ticker1, ticker2, data_source='yfinance', **kwargs):
     print(f"ANALYZING PAIR: {ticker1} <--> {ticker2}")
     print("="*80)
 
-    # Fetch data
     if data_source == 'yfinance':
         days = kwargs.get('days', 5)
         interval = kwargs.get('interval', '1m')
@@ -87,7 +76,6 @@ def analyze_pair(ticker1, ticker2, data_source='yfinance', **kwargs):
         end_date = kwargs.get('end_date')
         interval_minutes = kwargs.get('interval_minutes', 1)
 
-        # Convert tickers to Bloomberg format
         bb_ticker1 = get_bloomberg_ticker(ticker1)
         bb_ticker2 = get_bloomberg_ticker(ticker2)
 
@@ -101,12 +89,10 @@ def analyze_pair(ticker1, ticker2, data_source='yfinance', **kwargs):
     else:
         raise ValueError(f"Unknown data source: {data_source}")
 
-    # Check if we have data
     if len(data1) == 0 or len(data2) == 0:
         print(f"✗ Insufficient data for {ticker1}-{ticker2}, skipping...")
         return None
 
-    # Create detector and run analysis
     detector = LagDetector(
         data1['close'], data2['close'],
         ticker1, ticker2,
@@ -115,7 +101,6 @@ def analyze_pair(ticker1, ticker2, data_source='yfinance', **kwargs):
 
     results = detector.comprehensive_analysis(max_lag=60)
 
-    # Generate visualizations
     plot_dir = f'./lag_plots/{ticker1}_{ticker2}'
     os.makedirs(plot_dir, exist_ok=True)
     plot_comprehensive_analysis(detector, save_dir=plot_dir)
