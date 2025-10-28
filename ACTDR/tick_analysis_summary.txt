@@ -1,0 +1,861 @@
+====================================================================================================
+TICK-LEVEL LAG DETECTION ANALYSIS - SUMMARY REPORT
+Generated: 2025-10-28 16:57:45
+====================================================================================================
+
+Total pairs analyzed: 35
+
+====================================================================================================
+PAIRS WITH DETECTED LAG: 21
+====================================================================================================
+
+GDX <--> EPU
+  Correlation: 0.0096
+  Lag: 476 periods (1000ms)
+  Time lag: 476.00 seconds
+  Leader: EPU
+
+COPX <--> EPU
+  Correlation: -0.0000
+  Lag: 439 periods (1000ms)
+  Time lag: 439.00 seconds
+  Leader: EPU
+
+GDX <--> EPU
+  Correlation: 0.0003
+  Lag: 406 periods (1000ms)
+  Time lag: 406.00 seconds
+  Leader: EPU
+
+PICK <--> VALE
+  Correlation: 0.0067
+  Lag: 387 periods (1000ms)
+  Time lag: 387.00 seconds
+  Leader: PICK
+
+COPX <--> EPU
+  Correlation: -0.0024
+  Lag: 271 periods (1000ms)
+  Time lag: 271.00 seconds
+  Leader: EPU
+
+PICK <--> VALE
+  Correlation: 0.0163
+  Lag: 255 periods (1000ms)
+  Time lag: 255.00 seconds
+  Leader: PICK
+
+GDX <--> EPU
+  Correlation: 0.0027
+  Lag: 206 periods (1000ms)
+  Time lag: 206.00 seconds
+  Leader: EPU
+
+COPX <--> EPU
+  Correlation: 0.0112
+  Lag: 196 periods (1000ms)
+  Time lag: 196.00 seconds
+  Leader: COPX
+
+COPX <--> EPU
+  Correlation: -0.0004
+  Lag: 161 periods (1000ms)
+  Time lag: 161.00 seconds
+  Leader: COPX
+
+COPX <--> EPU
+  Correlation: 0.0037
+  Lag: 145 periods (1000ms)
+  Time lag: 145.00 seconds
+  Leader: EPU
+
+GDX <--> EPU
+  Correlation: 0.0015
+  Lag: 123 periods (1000ms)
+  Time lag: 123.00 seconds
+  Leader: EPU
+
+GDX <--> EPU
+  Correlation: -0.0058
+  Lag: 105 periods (1000ms)
+  Time lag: 105.00 seconds
+  Leader: EPU
+
+PICK <--> VALE
+  Correlation: 0.0002
+  Lag: 93 periods (1000ms)
+  Time lag: 93.00 seconds
+  Leader: VALE
+
+COPX <--> EPU
+  Correlation: 0.0218
+  Lag: 53 periods (1000ms)
+  Time lag: 53.00 seconds
+  Leader: EPU
+
+GDX <--> EPU
+  Correlation: -0.0302
+  Lag: 50 periods (1000ms)
+  Time lag: 50.00 seconds
+  Leader: EPU
+
+GDX <--> EPU
+  Correlation: -0.0192
+  Lag: 48 periods (1000ms)
+  Time lag: 48.00 seconds
+  Leader: GDX
+
+PICK <--> VALE
+  Correlation: 0.0131
+  Lag: 40 periods (1000ms)
+  Time lag: 40.00 seconds
+  Leader: VALE
+
+COPX <--> EPU
+  Correlation: 0.0128
+  Lag: 35 periods (1000ms)
+  Time lag: 35.00 seconds
+  Leader: COPX
+
+PICK <--> VALE
+  Correlation: 0.0095
+  Lag: 30 periods (1000ms)
+  Time lag: 30.00 seconds
+  Leader: VALE
+
+PICK <--> VALE
+  Correlation: -0.0046
+  Lag: 14 periods (1000ms)
+  Time lag: 14.00 seconds
+  Leader: VALE
+
+PICK <--> VALE
+  Correlation: -0.0052
+  Lag: 2 periods (1000ms)
+  Time lag: 2.00 seconds
+  Leader: PICK
+
+====================================================================================================
+DETAILED RESULTS BY PAIR
+====================================================================================================
+
+PAIR #1: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 9001
+Frequency: 1000ms
+Date: 2025-10-20
+
+Pearson Correlation:
+  Coefficient: 0.3681
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #2: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 9001
+Frequency: 1000ms
+Date: 2025-10-21
+
+Pearson Correlation:
+  Coefficient: 0.2792
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #3: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 8998
+Frequency: 1000ms
+Date: 2025-10-22
+
+Pearson Correlation:
+  Coefficient: 0.2231
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #4: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 9001
+Frequency: 1000ms
+Date: 2025-10-23
+
+Pearson Correlation:
+  Coefficient: 0.2886
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #5: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 8999
+Frequency: 1000ms
+Date: 2025-10-24
+
+Pearson Correlation:
+  Coefficient: 0.2141
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #6: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 8990
+Frequency: 1000ms
+Date: 2025-10-27
+
+Pearson Correlation:
+  Coefficient: 0.2637
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #7: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 7738
+Frequency: 1000ms
+Date: 2025-10-28
+
+Pearson Correlation:
+  Coefficient: 0.2104
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #8: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8667
+Frequency: 1000ms
+Date: 2025-10-20
+
+Pearson Correlation:
+  Coefficient: -0.0024
+  P-value: 0.824630
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: COPX
+  Lag: 271 periods
+  Time Lag: 271.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #9: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8422
+Frequency: 1000ms
+Date: 2025-10-21
+
+Pearson Correlation:
+  Coefficient: 0.0218
+  P-value: 0.045416
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: COPX
+  Lag: 53 periods
+  Time Lag: 53.00 seconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #10: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8374
+Frequency: 1000ms
+Date: 2025-10-22
+
+Pearson Correlation:
+  Coefficient: 0.0112
+  P-value: 0.306256
+
+Cross-Correlation Analysis:
+  Leader: COPX
+  Follower: EPU
+  Lag: 196 periods
+  Time Lag: 196.00 seconds
+
+Granger Causality Test:
+  Leader: EPU
+  Lag: 9 periods
+
+
+PAIR #11: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8053
+Frequency: 1000ms
+Date: 2025-10-23
+
+Pearson Correlation:
+  Coefficient: 0.0037
+  P-value: 0.740245
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: COPX
+  Lag: 145 periods
+  Time Lag: 145.00 seconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #12: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8154
+Frequency: 1000ms
+Date: 2025-10-24
+
+Pearson Correlation:
+  Coefficient: -0.0000
+  P-value: 0.999522
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: COPX
+  Lag: 439 periods
+  Time Lag: 439.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #13: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 7786
+Frequency: 1000ms
+Date: 2025-10-27
+
+Pearson Correlation:
+  Coefficient: 0.0128
+  P-value: 0.259513
+
+Cross-Correlation Analysis:
+  Leader: COPX
+  Follower: EPU
+  Lag: 35 periods
+  Time Lag: 35.00 seconds
+
+Granger Causality Test:
+  Leader: COPX
+  Lag: 4 periods
+
+
+PAIR #14: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 7066
+Frequency: 1000ms
+Date: 2025-10-28
+
+Pearson Correlation:
+  Coefficient: -0.0004
+  P-value: 0.972723
+
+Cross-Correlation Analysis:
+  Leader: COPX
+  Follower: EPU
+  Lag: 161 periods
+  Time Lag: 161.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #15: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 9001
+Frequency: 1000ms
+Date: 2025-10-20
+
+Pearson Correlation:
+  Coefficient: 0.3568
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #16: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 9001
+Frequency: 1000ms
+Date: 2025-10-21
+
+Pearson Correlation:
+  Coefficient: 0.2912
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #17: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 8998
+Frequency: 1000ms
+Date: 2025-10-22
+
+Pearson Correlation:
+  Coefficient: 0.2476
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #18: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 9000
+Frequency: 1000ms
+Date: 2025-10-23
+
+Pearson Correlation:
+  Coefficient: 0.3112
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #19: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 9000
+Frequency: 1000ms
+Date: 2025-10-24
+
+Pearson Correlation:
+  Coefficient: 0.2828
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #20: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 8999
+Frequency: 1000ms
+Date: 2025-10-27
+
+Pearson Correlation:
+  Coefficient: 0.3244
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #21: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 7833
+Frequency: 1000ms
+Date: 2025-10-28
+
+Pearson Correlation:
+  Coefficient: 0.2753
+  P-value: 0.000000
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods
+  Time Lag: 0 milliseconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #22: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8667
+Frequency: 1000ms
+Date: 2025-10-20
+
+Pearson Correlation:
+  Coefficient: 0.0027
+  P-value: 0.803615
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: GDX
+  Lag: 206 periods
+  Time Lag: 206.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #23: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8422
+Frequency: 1000ms
+Date: 2025-10-21
+
+Pearson Correlation:
+  Coefficient: -0.0302
+  P-value: 0.005591
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: GDX
+  Lag: 50 periods
+  Time Lag: 50.00 seconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #24: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8374
+Frequency: 1000ms
+Date: 2025-10-22
+
+Pearson Correlation:
+  Coefficient: -0.0192
+  P-value: 0.079111
+
+Cross-Correlation Analysis:
+  Leader: GDX
+  Follower: EPU
+  Lag: 48 periods
+  Time Lag: 48.00 seconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #25: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8053
+Frequency: 1000ms
+Date: 2025-10-23
+
+Pearson Correlation:
+  Coefficient: 0.0015
+  P-value: 0.895892
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: GDX
+  Lag: 123 periods
+  Time Lag: 123.00 seconds
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+
+PAIR #26: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 8154
+Frequency: 1000ms
+Date: 2025-10-24
+
+Pearson Correlation:
+  Coefficient: 0.0003
+  P-value: 0.979010
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: GDX
+  Lag: 406 periods
+  Time Lag: 406.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #27: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 7786
+Frequency: 1000ms
+Date: 2025-10-27
+
+Pearson Correlation:
+  Coefficient: -0.0058
+  P-value: 0.610556
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: GDX
+  Lag: 105 periods
+  Time Lag: 105.00 seconds
+
+Granger Causality Test:
+  Leader: GDX
+  Lag: 20 periods
+
+
+PAIR #28: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 7066
+Frequency: 1000ms
+Date: 2025-10-28
+
+Pearson Correlation:
+  Coefficient: 0.0096
+  P-value: 0.422036
+
+Cross-Correlation Analysis:
+  Leader: EPU
+  Follower: GDX
+  Lag: 476 periods
+  Time Lag: 476.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #29: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 8845
+Frequency: 1000ms
+Date: 2025-10-20
+
+Pearson Correlation:
+  Coefficient: 0.0002
+  P-value: 0.984625
+
+Cross-Correlation Analysis:
+  Leader: VALE
+  Follower: PICK
+  Lag: 93 periods
+  Time Lag: 93.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #30: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 8872
+Frequency: 1000ms
+Date: 2025-10-21
+
+Pearson Correlation:
+  Coefficient: -0.0052
+  P-value: 0.621293
+
+Cross-Correlation Analysis:
+  Leader: PICK
+  Follower: VALE
+  Lag: 2 periods
+  Time Lag: 2.00 seconds
+
+Granger Causality Test:
+  Leader: VALE
+  Lag: 2 periods
+
+
+PAIR #31: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 8932
+Frequency: 1000ms
+Date: 2025-10-22
+
+Pearson Correlation:
+  Coefficient: -0.0046
+  P-value: 0.664036
+
+Cross-Correlation Analysis:
+  Leader: VALE
+  Follower: PICK
+  Lag: 14 periods
+  Time Lag: 14.00 seconds
+
+Granger Causality Test:
+  Leader: PICK
+  Lag: 15 periods
+
+
+PAIR #32: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 8939
+Frequency: 1000ms
+Date: 2025-10-23
+
+Pearson Correlation:
+  Coefficient: 0.0095
+  P-value: 0.371485
+
+Cross-Correlation Analysis:
+  Leader: VALE
+  Follower: PICK
+  Lag: 30 periods
+  Time Lag: 30.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #33: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 8805
+Frequency: 1000ms
+Date: 2025-10-24
+
+Pearson Correlation:
+  Coefficient: 0.0163
+  P-value: 0.126922
+
+Cross-Correlation Analysis:
+  Leader: PICK
+  Follower: VALE
+  Lag: 255 periods
+  Time Lag: 255.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #34: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 8586
+Frequency: 1000ms
+Date: 2025-10-27
+
+Pearson Correlation:
+  Coefficient: 0.0067
+  P-value: 0.536185
+
+Cross-Correlation Analysis:
+  Leader: PICK
+  Follower: VALE
+  Lag: 387 periods
+  Time Lag: 387.00 seconds
+
+Granger Causality Test:
+  Leader: No significant causality
+
+
+PAIR #35: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 7766
+Frequency: 1000ms
+Date: 2025-10-28
+
+Pearson Correlation:
+  Coefficient: 0.0131
+  P-value: 0.248892
+
+Cross-Correlation Analysis:
+  Leader: VALE
+  Follower: PICK
+  Lag: 40 periods
+  Time Lag: 40.00 seconds
+
+Granger Causality Test:
+  Leader: VALE
+  Lag: 19 periods
+
+
+====================================================================================================
+RESEARCH RECOMMENDATIONS
+====================================================================================================
+
+✓ LAG DETECTED at tick/millisecond level!
+
+Next steps:
+  1. Verify lag consistency across multiple days
+  2. Calculate theoretical arbitrage profit
+  3. Model transaction costs (spread, fees, latency)
+  4. Test during different market conditions
+  5. Consider building predictive model
+
+====================================================================================================

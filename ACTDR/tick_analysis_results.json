@@ -1,0 +1,317 @@
+[
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.36810153894602476,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-20"
+  },
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.2791575653629149,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-21"
+  },
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.22307414221752275,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-22"
+  },
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.2885776929689858,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-23"
+  },
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.2140905007832544,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-24"
+  },
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.26365190496503127,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-27"
+  },
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.21044597313649474,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-28"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": -0.0023807304626031023,
+    "lag_periods": 271,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-20"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": 0.02180368358281507,
+    "lag_periods": 53,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-21"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": 0.011182338574039313,
+    "lag_periods": 196,
+    "leader": "COPX",
+    "frequency": "1000ms",
+    "date": "2025-10-22"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": 0.0036951726117457513,
+    "lag_periods": 145,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-23"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": -6.637101053587564e-06,
+    "lag_periods": 439,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-24"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": 0.012780726646999755,
+    "lag_periods": 35,
+    "leader": "COPX",
+    "frequency": "1000ms",
+    "date": "2025-10-27"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": -0.0004068783533635923,
+    "lag_periods": 161,
+    "leader": "COPX",
+    "frequency": "1000ms",
+    "date": "2025-10-28"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.3568191619724264,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-20"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.29117016707027993,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-21"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.24761754820074852,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-22"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.3112434207082717,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-23"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.28278315811957344,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-24"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.3244107826286463,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-27"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.27528134911738916,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1000ms",
+    "date": "2025-10-28"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": 0.0026716378227960432,
+    "lag_periods": 206,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-20"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": -0.030192349872620566,
+    "lag_periods": 50,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-21"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": -0.019190049183680363,
+    "lag_periods": 48,
+    "leader": "GDX",
+    "frequency": "1000ms",
+    "date": "2025-10-22"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": 0.0014584627171843887,
+    "lag_periods": 123,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-23"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": 0.00029142789969268014,
+    "lag_periods": 406,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-24"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": -0.005772898114773982,
+    "lag_periods": 105,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-27"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": 0.009553643649808388,
+    "lag_periods": 476,
+    "leader": "EPU",
+    "frequency": "1000ms",
+    "date": "2025-10-28"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": 0.00020495234168203659,
+    "lag_periods": 93,
+    "leader": "VALE",
+    "frequency": "1000ms",
+    "date": "2025-10-20"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": -0.00524584974105239,
+    "lag_periods": 2,
+    "leader": "PICK",
+    "frequency": "1000ms",
+    "date": "2025-10-21"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": -0.004596703267258343,
+    "lag_periods": 14,
+    "leader": "VALE",
+    "frequency": "1000ms",
+    "date": "2025-10-22"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": 0.00945410777664349,
+    "lag_periods": 30,
+    "leader": "VALE",
+    "frequency": "1000ms",
+    "date": "2025-10-23"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": 0.016268497106557606,
+    "lag_periods": 255,
+    "leader": "PICK",
+    "frequency": "1000ms",
+    "date": "2025-10-24"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": 0.0066771820509340125,
+    "lag_periods": 387,
+    "leader": "PICK",
+    "frequency": "1000ms",
+    "date": "2025-10-27"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": 0.013086603648900286,
+    "lag_periods": 40,
+    "leader": "VALE",
+    "frequency": "1000ms",
+    "date": "2025-10-28"
+  }
+]

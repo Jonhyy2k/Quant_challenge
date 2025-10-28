@@ -34,7 +34,7 @@ from lag_visualization import plot_comprehensive_analysis, create_summary_dashbo
 TOP_PAIRS = [
     # Commodity-EM pairs (HIGHEST PRIORITY)
     ('COPX', 'EPU'),    # Copper vs Peru - Corr: 0.84
-    ('PICK', 'VALE'),   # Metals vs Vale - Corr: 0.77
+    ('PICK', 'VALE'),   # Metals vs Vale - Corr: 0.77W
     ('PICK', 'DEM'),    # Metals vs EM Dividend - Corr: 0.80
     ('GDX', 'EPU'),     # Gold vs Peru - Corr: 0.69
     ('COPX', 'VALE'),   # Copper vs Vale - Corr: 0.66

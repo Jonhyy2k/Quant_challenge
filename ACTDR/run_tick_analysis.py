@@ -560,8 +560,8 @@ Examples:
         json_r = {
             'asset1': r['asset1'],
             'asset2': r['asset2'],
-            'correlation': r['pearson']['correlation'],
-            'lag_periods': r['cross_correlation']['lag_periods'],
+            'correlation': float(r['pearson']['correlation']),
+            'lag_periods': int(r['cross_correlation']['lag_periods']),
             'leader': r['cross_correlation']['leader'],
             'frequency': r['frequency']
         }
