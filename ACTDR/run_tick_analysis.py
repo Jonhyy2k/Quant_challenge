@@ -56,7 +56,7 @@ TOP_PAIRS = [
 ]
 
 
-def resample_tick_data(tick_data, interval_ms=1000):
+def resample_tick_data(tick_data, interval_ms=1): #was 1000
     """
     Resample tick data to regular intervals
 
@@ -194,7 +194,7 @@ def analyze_tick_pair(ticker1, ticker2, start_datetime, end_datetime,
 
 def analyze_multiple_days(ticker1, ticker2, start_date, end_date,
                          trading_start="09:30:00", trading_end="16:00:00",
-                         resample_ms=1000):
+                         resample_ms=1):
     """
     Analyze tick data across multiple trading days
 
