@@ -1,0 +1,1958 @@
+====================================================================================================
+EMERGING MARKETS CORRELATION ANALYSIS - COMPREHENSIVE REPORT
+Analysis Date: 2025-10-21 02:59:14
+====================================================================================================
+
+TOTAL PAIRS FOUND (correlation > 0.6): 728
+  - HIGH PRIORITY (EM-EM pairs): 320
+  - MEDIUM PRIORITY (EM-Commodity, EM-Developed): 208
+  - LOW PRIORITY (Non-EM): 200
+
+====================================================================================================
+HIGH PRIORITY PAIRS: EMERGING MARKET <--> EMERGING MARKET
+====================================================================================================
+These pairs are most likely to exhibit lag due to:
+  - Different time zones (Asia vs Latin America)
+  - Varying liquidity levels
+  - Information asymmetry between markets
+  - Market microstructure differences
+
+PAIR #1
+  EEM <--> IEMG
+  Correlation: 0.9973
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #2
+  SPEM <--> VWO
+  Correlation: 0.9962
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #3
+  SCHE <--> VWO
+  Correlation: 0.9953
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #4
+  SCHE <--> SPEM
+  Correlation: 0.9942
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #5
+  EEM <--> SCHE
+  Correlation: 0.9890
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #6
+  IEMG <--> SCHE
+  Correlation: 0.9883
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #7
+  IEMG <--> VWO
+  Correlation: 0.9882
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #8
+  EEM <--> VWO
+  Correlation: 0.9881
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #9
+  IEMG <--> SPEM
+  Correlation: 0.9878
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #10
+  EEM <--> SPEM
+  Correlation: 0.9875
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #11
+  FXI <--> MCHI
+  Correlation: 0.9839
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #12
+  EPI <--> INDA
+  Correlation: 0.9729
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #13
+  INDA <--> INDY
+  Correlation: 0.9654
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #14
+  KWEB <--> MCHI
+  Correlation: 0.9549
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #15
+  FXI <--> KWEB
+  Correlation: 0.9427
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #16
+  EPI <--> INDY
+  Correlation: 0.9339
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #17
+  EEMV <--> SPEM
+  Correlation: 0.9231
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #18
+  EEMV <--> IEMG
+  Correlation: 0.9231
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #19
+  DEM <--> IEMG
+  Correlation: 0.9226
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #20
+  DEM <--> SPEM
+  Correlation: 0.9215
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #21
+  EEM <--> EEMV
+  Correlation: 0.9211
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #22
+  EEMV <--> VWO
+  Correlation: 0.9210
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #23
+  DEM <--> EEM
+  Correlation: 0.9197
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #24
+  DEM <--> VWO
+  Correlation: 0.9194
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #25
+  EEMV <--> SCHE
+  Correlation: 0.9185
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #26
+  DEM <--> SCHE
+  Correlation: 0.9156
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #27
+  EMQQ <--> KWEB
+  Correlation: 0.9050
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #28
+  IEMG <--> KEMX
+  Correlation: 0.9043
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #29
+  DEM <--> EEMV
+  Correlation: 0.9031
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #30
+  EEM <--> KEMX
+  Correlation: 0.8972
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #31
+  DEM <--> EDIV
+  Correlation: 0.8942
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #32
+  EWT <--> KEMX
+  Correlation: 0.8914
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #33
+  EMQQ <--> SCHE
+  Correlation: 0.8824
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #34
+  EDIV <--> EEMV
+  Correlation: 0.8822
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #35
+  EELV <--> EEMV
+  Correlation: 0.8792
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #36
+  EMQQ <--> VWO
+  Correlation: 0.8791
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #37
+  EMQQ <--> SPEM
+  Correlation: 0.8789
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #38
+  EEM <--> EMQQ
+  Correlation: 0.8734
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #39
+  EMQQ <--> IEMG
+  Correlation: 0.8673
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #40
+  KEMX <--> SPEM
+  Correlation: 0.8643
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #41
+  EMQQ <--> MCHI
+  Correlation: 0.8616
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #42
+  KEMX <--> SCHE
+  Correlation: 0.8612
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #43
+  EDIV <--> SPEM
+  Correlation: 0.8610
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #44
+  KEMX <--> VWO
+  Correlation: 0.8600
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #45
+  EDIV <--> VWO
+  Correlation: 0.8600
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #46
+  EMQQ <--> FXI
+  Correlation: 0.8593
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #47
+  EDIV <--> SCHE
+  Correlation: 0.8581
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #48
+  EWH <--> FXI
+  Correlation: 0.8575
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #49
+  EWH <--> MCHI
+  Correlation: 0.8559
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #50
+  EDIV <--> IEMG
+  Correlation: 0.8557
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #51
+  DEM <--> KEMX
+  Correlation: 0.8533
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #52
+  DEM <--> EELV
+  Correlation: 0.8518
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #53
+  EDIV <--> EEM
+  Correlation: 0.8507
+  Categories: EM_Broad <--> EM_Broad
+
+PAIR #54
+  EWY <--> KEMX
+  Correlation: 0.8473
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #55
+  EEMV <--> KEMX
+  Correlation: 0.8466
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #56
+  EELV <--> IEMG
+  Correlation: 0.8432
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #57
+  EELV <--> KEMX
+  Correlation: 0.8415
+  Categories: EM_Sector <--> EM_Sector
+
+PAIR #58
+  ASHR <--> MCHI
+  Correlation: 0.8384
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #59
+  EELV <--> EEM
+  Correlation: 0.8379
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #60
+  EDIV <--> EELV
+  Correlation: 0.8368
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #61
+  MCHI <--> VWO
+  Correlation: 0.8305
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #62
+  MCHI <--> SCHE
+  Correlation: 0.8305
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #63
+  EWZ <--> ITUB
+  Correlation: 0.8299
+  Categories: EM_Country_ETFs <--> Brazil_Stocks
+
+PAIR #64
+  FXI <--> SCHE
+  Correlation: 0.8298
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #65
+  JD <--> KWEB
+  Correlation: 0.8297
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #66
+  BABA <--> KWEB
+  Correlation: 0.8284
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #67
+  FXI <--> VWO
+  Correlation: 0.8282
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #68
+  EWT <--> IEMG
+  Correlation: 0.8271
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #69
+  MCHI <--> SPEM
+  Correlation: 0.8261
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #70
+  EELV <--> SPEM
+  Correlation: 0.8242
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #71
+  EELV <--> VWO
+  Correlation: 0.8240
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #72
+  FXI <--> SPEM
+  Correlation: 0.8228
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #73
+  EEM <--> EWT
+  Correlation: 0.8215
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #74
+  EELV <--> SCHE
+  Correlation: 0.8213
+  Categories: EM_Sector <--> EM_Broad
+
+PAIR #75
+  EWH <--> KWEB
+  Correlation: 0.8173
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #76
+  BABA <--> MCHI
+  Correlation: 0.8078
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #77
+  KWEB <--> SCHE
+  Correlation: 0.8055
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #78
+  KB <--> SHG
+  Correlation: 0.8052
+  Categories: Other_EM_Stocks <--> Other_EM_Stocks
+
+PAIR #79
+  EEM <--> FXI
+  Correlation: 0.8035
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #80
+  KWEB <--> VWO
+  Correlation: 0.8034
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #81
+  BABA <--> FXI
+  Correlation: 0.8017
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #82
+  EEM <--> MCHI
+  Correlation: 0.8015
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #83
+  KWEB <--> SPEM
+  Correlation: 0.7981
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #84
+  FXI <--> JD
+  Correlation: 0.7977
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #85
+  EWT <--> SCHE
+  Correlation: 0.7957
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #86
+  BIDU <--> KWEB
+  Correlation: 0.7949
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #87
+  EWT <--> SPEM
+  Correlation: 0.7943
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #88
+  EWT <--> VWO
+  Correlation: 0.7936
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #89
+  ASHR <--> FXI
+  Correlation: 0.7906
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #90
+  EWY <--> IEMG
+  Correlation: 0.7903
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #91
+  FXI <--> IEMG
+  Correlation: 0.7890
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #92
+  JD <--> MCHI
+  Correlation: 0.7882
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #93
+  IEMG <--> MCHI
+  Correlation: 0.7864
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #94
+  BILI <--> KWEB
+  Correlation: 0.7862
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #95
+  EEM <--> EWY
+  Correlation: 0.7855
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #96
+  EDIV <--> KEMX
+  Correlation: 0.7807
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #97
+  EEM <--> KWEB
+  Correlation: 0.7787
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #98
+  EWT <--> TSM
+  Correlation: 0.7780
+  Categories: EM_Country_ETFs <--> Taiwan_Stocks
+
+PAIR #99
+  DEM <--> EWT
+  Correlation: 0.7719
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #100
+  BABA <--> EMQQ
+  Correlation: 0.7713
+  Categories: China_Stocks <--> EM_Sector
+
+PAIR #101
+  ASX <--> EWT
+  Correlation: 0.7689
+  Categories: Taiwan_Stocks <--> EM_Country_ETFs
+
+PAIR #102
+  EMQQ <--> EWH
+  Correlation: 0.7684
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #103
+  EWH <--> VWO
+  Correlation: 0.7669
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #104
+  IEMG <--> KWEB
+  Correlation: 0.7648
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #105
+  EWH <--> SCHE
+  Correlation: 0.7644
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #106
+  EWH <--> SPEM
+  Correlation: 0.7635
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #107
+  EZA <--> IEMG
+  Correlation: 0.7625
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #108
+  EEM <--> EZA
+  Correlation: 0.7594
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #109
+  DEM <--> EZA
+  Correlation: 0.7553
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #110
+  EMQQ <--> JD
+  Correlation: 0.7544
+  Categories: EM_Sector <--> China_Stocks
+
+PAIR #111
+  EEMV <--> EMQQ
+  Correlation: 0.7527
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #112
+  EELV <--> EZA
+  Correlation: 0.7527
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #113
+  DEM <--> EMQQ
+  Correlation: 0.7495
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #114
+  EEM <--> EWH
+  Correlation: 0.7491
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #115
+  KWEB <--> WB
+  Correlation: 0.7471
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #116
+  EZA <--> SCHE
+  Correlation: 0.7467
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #117
+  EZA <--> VWO
+  Correlation: 0.7453
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #118
+  EZA <--> SPEM
+  Correlation: 0.7427
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #119
+  BIDU <--> EMQQ
+  Correlation: 0.7426
+  Categories: China_Stocks <--> EM_Sector
+
+PAIR #120
+  ASX <--> TSM
+  Correlation: 0.7406
+  Categories: Taiwan_Stocks <--> Taiwan_Stocks
+
+PAIR #121
+  EEMV <--> EWT
+  Correlation: 0.7404
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #122
+  BIDU <--> MCHI
+  Correlation: 0.7376
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #123
+  BIDU <--> FXI
+  Correlation: 0.7373
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #124
+  EWH <--> IEMG
+  Correlation: 0.7352
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #125
+  EWZ <--> UGP
+  Correlation: 0.7337
+  Categories: EM_Country_ETFs <--> Brazil_Stocks
+
+PAIR #126
+  BILI <--> MCHI
+  Correlation: 0.7333
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #127
+  DEM <--> FXI
+  Correlation: 0.7333
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #128
+  BILI <--> FXI
+  Correlation: 0.7326
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #129
+  BABA <--> JD
+  Correlation: 0.7316
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #130
+  EZA <--> KEMX
+  Correlation: 0.7312
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #131
+  BBD <--> EWZ
+  Correlation: 0.7297
+  Categories: Brazil_Stocks <--> EM_Country_ETFs
+
+PAIR #132
+  EWS <--> IEMG
+  Correlation: 0.7253
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #133
+  SID <--> VALE
+  Correlation: 0.7253
+  Categories: Brazil_Stocks <--> Brazil_Stocks
+
+PAIR #134
+  ASHR <--> KWEB
+  Correlation: 0.7247
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #135
+  EWT <--> EWY
+  Correlation: 0.7243
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #136
+  BABA <--> BIDU
+  Correlation: 0.7240
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #137
+  EELV <--> EWT
+  Correlation: 0.7239
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #138
+  EEMV <--> FXI
+  Correlation: 0.7202
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #139
+  EEMV <--> EZA
+  Correlation: 0.7201
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #140
+  DEM <--> MCHI
+  Correlation: 0.7198
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #141
+  EEMV <--> EWY
+  Correlation: 0.7186
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #142
+  EDIV <--> EWT
+  Correlation: 0.7178
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #143
+  ARGT <--> TEO
+  Correlation: 0.7174
+  Categories: EM_Country_ETFs <--> Other_EM_Stocks
+
+PAIR #144
+  EEM <--> EWS
+  Correlation: 0.7160
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #145
+  BBD <--> ITUB
+  Correlation: 0.7140
+  Categories: Brazil_Stocks <--> Brazil_Stocks
+
+PAIR #146
+  EEMV <--> MCHI
+  Correlation: 0.7100
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #147
+  EWS <--> SPEM
+  Correlation: 0.7100
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #148
+  EELV <--> EWS
+  Correlation: 0.7095
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #149
+  EEMV <--> EWS
+  Correlation: 0.7092
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #150
+  EWY <--> SPEM
+  Correlation: 0.7089
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #151
+  EELV <--> EWM
+  Correlation: 0.7085
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #152
+  EWS <--> VWO
+  Correlation: 0.7084
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #153
+  DEM <--> EWY
+  Correlation: 0.7076
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #154
+  MCHI <--> WB
+  Correlation: 0.7075
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #155
+  EWY <--> SCHE
+  Correlation: 0.7073
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #156
+  DEM <--> EWH
+  Correlation: 0.7046
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #157
+  EELV <--> EWY
+  Correlation: 0.7044
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #158
+  EWY <--> VWO
+  Correlation: 0.7041
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #159
+  AMX <--> EWW
+  Correlation: 0.7040
+  Categories: Other_EM_Stocks <--> EM_Country_ETFs
+
+PAIR #160
+  EWS <--> KEMX
+  Correlation: 0.7039
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #161
+  EWS <--> SCHE
+  Correlation: 0.7038
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #162
+  ASHR <--> EWH
+  Correlation: 0.7001
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #163
+  KWEB <--> YMM
+  Correlation: 0.6997
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #164
+  FXI <--> WB
+  Correlation: 0.6996
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #165
+  DEM <--> EWS
+  Correlation: 0.6995
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #166
+  AFK <--> EZA
+  Correlation: 0.6994
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #167
+  DEM <--> EPU
+  Correlation: 0.6977
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #168
+  EDIV <--> EZA
+  Correlation: 0.6967
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #169
+  EDIV <--> EMQQ
+  Correlation: 0.6952
+  Categories: EM_Broad <--> EM_Sector
+
+PAIR #170
+  BIDU <--> JD
+  Correlation: 0.6901
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #171
+  DEM <--> VALE
+  Correlation: 0.6900
+  Categories: EM_Broad <--> Brazil_Stocks
+
+PAIR #172
+  EDIV <--> EWS
+  Correlation: 0.6898
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #173
+  EPU <--> IEMG
+  Correlation: 0.6897
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #174
+  EWH <--> JD
+  Correlation: 0.6895
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #175
+  EEM <--> EPU
+  Correlation: 0.6893
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #176
+  ASX <--> KEMX
+  Correlation: 0.6867
+  Categories: Taiwan_Stocks <--> EM_Sector
+
+PAIR #177
+  NIO <--> XPEV
+  Correlation: 0.6852
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #178
+  EEMV <--> EWH
+  Correlation: 0.6851
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #179
+  EDIV <--> FXI
+  Correlation: 0.6837
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #180
+  EPU <--> SPEM
+  Correlation: 0.6826
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #181
+  HTHT <--> KWEB
+  Correlation: 0.6818
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #182
+  KWEB <--> VIPS
+  Correlation: 0.6789
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #183
+  EPU <--> VWO
+  Correlation: 0.6786
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #184
+  EELV <--> THD
+  Correlation: 0.6786
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #185
+  EPU <--> SCHE
+  Correlation: 0.6779
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #186
+  BILI <--> JD
+  Correlation: 0.6775
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #187
+  BILI <--> EMQQ
+  Correlation: 0.6763
+  Categories: China_Stocks <--> EM_Sector
+
+PAIR #188
+  KEMX <--> TSM
+  Correlation: 0.6763
+  Categories: EM_Sector <--> Taiwan_Stocks
+
+PAIR #189
+  EMQQ <--> KEMX
+  Correlation: 0.6747
+  Categories: EM_Sector <--> EM_Sector
+
+PAIR #190
+  BABA <--> SCHE
+  Correlation: 0.6742
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #191
+  DEM <--> ECH
+  Correlation: 0.6723
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #192
+  ECH <--> IEMG
+  Correlation: 0.6714
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #193
+  ECH <--> EEM
+  Correlation: 0.6706
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #194
+  EDIV <--> MCHI
+  Correlation: 0.6693
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #195
+  EMQQ <--> WB
+  Correlation: 0.6689
+  Categories: EM_Sector <--> China_Stocks
+
+PAIR #196
+  BABA <--> VWO
+  Correlation: 0.6679
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #197
+  ECH <--> EELV
+  Correlation: 0.6667
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #198
+  BABA <--> EWH
+  Correlation: 0.6658
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #199
+  EWZ <--> SID
+  Correlation: 0.6654
+  Categories: EM_Country_ETFs <--> Brazil_Stocks
+
+PAIR #200
+  ECH <--> SPEM
+  Correlation: 0.6653
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #201
+  IBN <--> INDY
+  Correlation: 0.6650
+  Categories: India_Stocks <--> EM_Country_ETFs
+
+PAIR #202
+  JD <--> SCHE
+  Correlation: 0.6635
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #203
+  ECH <--> SCHE
+  Correlation: 0.6634
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #204
+  DEM <--> KWEB
+  Correlation: 0.6632
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #205
+  ECH <--> VWO
+  Correlation: 0.6631
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #206
+  EELV <--> EMQQ
+  Correlation: 0.6630
+  Categories: EM_Sector <--> EM_Sector
+
+PAIR #207
+  FXI <--> HTHT
+  Correlation: 0.6624
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #208
+  AFK <--> IEMG
+  Correlation: 0.6606
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #209
+  EEMV <--> THD
+  Correlation: 0.6606
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #210
+  INFY <--> WIT
+  Correlation: 0.6599
+  Categories: India_Stocks <--> India_Stocks
+
+PAIR #211
+  BABA <--> SPEM
+  Correlation: 0.6596
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #212
+  HTHT <--> MCHI
+  Correlation: 0.6591
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #213
+  AFK <--> EEM
+  Correlation: 0.6586
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #214
+  KWEB <--> PDD
+  Correlation: 0.6586
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #215
+  SPEM <--> VALE
+  Correlation: 0.6575
+  Categories: EM_Broad <--> Brazil_Stocks
+
+PAIR #216
+  JD <--> WB
+  Correlation: 0.6574
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #217
+  JD <--> VWO
+  Correlation: 0.6573
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #218
+  ECH <--> EPU
+  Correlation: 0.6566
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #219
+  SCHE <--> VALE
+  Correlation: 0.6555
+  Categories: EM_Broad <--> Brazil_Stocks
+
+PAIR #220
+  VALE <--> VWO
+  Correlation: 0.6554
+  Categories: Brazil_Stocks <--> EM_Broad
+
+PAIR #221
+  EELV <--> EWZ
+  Correlation: 0.6552
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #222
+  IEMG <--> THD
+  Correlation: 0.6551
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #223
+  AFK <--> KEMX
+  Correlation: 0.6550
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #224
+  AFK <--> DEM
+  Correlation: 0.6549
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #225
+  JD <--> SPEM
+  Correlation: 0.6545
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #226
+  EPU <--> EZA
+  Correlation: 0.6543
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #227
+  EEMV <--> KWEB
+  Correlation: 0.6542
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #228
+  EPU <--> KEMX
+  Correlation: 0.6537
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #229
+  AFK <--> EPU
+  Correlation: 0.6536
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #230
+  ITUB <--> UGP
+  Correlation: 0.6535
+  Categories: Brazil_Stocks <--> Brazil_Stocks
+
+PAIR #231
+  BABA <--> EEM
+  Correlation: 0.6533
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #232
+  DEM <--> EWZ
+  Correlation: 0.6517
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #233
+  CIG <--> EWZ
+  Correlation: 0.6515
+  Categories: Brazil_Stocks <--> EM_Country_ETFs
+
+PAIR #234
+  IEMG <--> VALE
+  Correlation: 0.6514
+  Categories: EM_Broad <--> Brazil_Stocks
+
+PAIR #235
+  EEM <--> VALE
+  Correlation: 0.6509
+  Categories: EM_Broad <--> Brazil_Stocks
+
+PAIR #236
+  EDIV <--> EWH
+  Correlation: 0.6507
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #237
+  EDIV <--> THD
+  Correlation: 0.6504
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #238
+  EEM <--> THD
+  Correlation: 0.6504
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #239
+  EEMV <--> EWM
+  Correlation: 0.6496
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #240
+  EWZ <--> VALE
+  Correlation: 0.6486
+  Categories: EM_Country_ETFs <--> Brazil_Stocks
+
+PAIR #241
+  THD <--> VWO
+  Correlation: 0.6461
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #242
+  ASHR <--> VWO
+  Correlation: 0.6455
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #243
+  ASHR <--> SPEM
+  Correlation: 0.6452
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #244
+  ECH <--> EEMV
+  Correlation: 0.6445
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #245
+  BIDU <--> SCHE
+  Correlation: 0.6437
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #246
+  BABA <--> BILI
+  Correlation: 0.6430
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #247
+  BILI <--> EWH
+  Correlation: 0.6429
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #248
+  SCHE <--> THD
+  Correlation: 0.6427
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #249
+  AFK <--> SPEM
+  Correlation: 0.6426
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #250
+  BILI <--> WB
+  Correlation: 0.6426
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #251
+  EWS <--> EWT
+  Correlation: 0.6415
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #252
+  BABA <--> IEMG
+  Correlation: 0.6409
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #253
+  AFK <--> SCHE
+  Correlation: 0.6407
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #254
+  KWEB <--> TME
+  Correlation: 0.6405
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #255
+  KEMX <--> THD
+  Correlation: 0.6405
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #256
+  EEM <--> JD
+  Correlation: 0.6399
+  Categories: EM_Broad <--> China_Stocks
+
+PAIR #257
+  SPEM <--> THD
+  Correlation: 0.6399
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #258
+  BIDU <--> VWO
+  Correlation: 0.6397
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #259
+  AFK <--> VWO
+  Correlation: 0.6392
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #260
+  AFK <--> EELV
+  Correlation: 0.6382
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #261
+  EMQQ <--> PDD
+  Correlation: 0.6378
+  Categories: EM_Sector <--> China_Stocks
+
+PAIR #262
+  BIDU <--> SPEM
+  Correlation: 0.6360
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #263
+  ASHR <--> SCHE
+  Correlation: 0.6359
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #264
+  EEMV <--> EPU
+  Correlation: 0.6342
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #265
+  EDIV <--> EWY
+  Correlation: 0.6341
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #266
+  ASX <--> IEMG
+  Correlation: 0.6337
+  Categories: Taiwan_Stocks <--> EM_Broad
+
+PAIR #267
+  EELV <--> EPU
+  Correlation: 0.6324
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #268
+  ASX <--> EEM
+  Correlation: 0.6317
+  Categories: Taiwan_Stocks <--> EM_Broad
+
+PAIR #269
+  ECH <--> KEMX
+  Correlation: 0.6314
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #270
+  EMQQ <--> EZA
+  Correlation: 0.6309
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #271
+  HDB <--> INDY
+  Correlation: 0.6301
+  Categories: India_Stocks <--> EM_Country_ETFs
+
+PAIR #272
+  EMQQ <--> YMM
+  Correlation: 0.6297
+  Categories: EM_Sector <--> China_Stocks
+
+PAIR #273
+  MCHI <--> YMM
+  Correlation: 0.6284
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #274
+  IEMG <--> JD
+  Correlation: 0.6277
+  Categories: EM_Broad <--> China_Stocks
+
+PAIR #275
+  BIDU <--> EEM
+  Correlation: 0.6268
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #276
+  EWM <--> KEMX
+  Correlation: 0.6265
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #277
+  KWEB <--> XPEV
+  Correlation: 0.6238
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #278
+  BIDU <--> EWH
+  Correlation: 0.6236
+  Categories: China_Stocks <--> EM_Country_ETFs
+
+PAIR #279
+  EWH <--> WB
+  Correlation: 0.6233
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #280
+  EDIV <--> EPU
+  Correlation: 0.6209
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #281
+  FXI <--> YMM
+  Correlation: 0.6203
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #282
+  BIDU <--> BILI
+  Correlation: 0.6203
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #283
+  ECH <--> EDIV
+  Correlation: 0.6200
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #284
+  AFK <--> EEMV
+  Correlation: 0.6197
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #285
+  ABEV <--> EWZ
+  Correlation: 0.6197
+  Categories: Brazil_Stocks <--> EM_Country_ETFs
+
+PAIR #286
+  EWY <--> SHG
+  Correlation: 0.6175
+  Categories: EM_Country_ETFs <--> Other_EM_Stocks
+
+PAIR #287
+  MCHI <--> XPEV
+  Correlation: 0.6173
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #288
+  EWT <--> UMC
+  Correlation: 0.6162
+  Categories: EM_Country_ETFs <--> Taiwan_Stocks
+
+PAIR #289
+  EDIV <--> EWM
+  Correlation: 0.6159
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #290
+  EMQQ <--> HTHT
+  Correlation: 0.6158
+  Categories: EM_Sector <--> China_Stocks
+
+PAIR #291
+  BIDU <--> IEMG
+  Correlation: 0.6156
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #292
+  IBN <--> INDA
+  Correlation: 0.6154
+  Categories: India_Stocks <--> EM_Country_ETFs
+
+PAIR #293
+  BIDU <--> WB
+  Correlation: 0.6140
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #294
+  INDA <--> KEMX
+  Correlation: 0.6134
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #295
+  EWY <--> EZA
+  Correlation: 0.6130
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #296
+  EWM <--> IEMG
+  Correlation: 0.6119
+  Categories: EM_Country_ETFs <--> EM_Broad
+
+PAIR #297
+  EMQQ <--> EWS
+  Correlation: 0.6115
+  Categories: EM_Sector <--> EM_Country_ETFs
+
+PAIR #298
+  DEM <--> THD
+  Correlation: 0.6113
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #299
+  EWZ <--> PBR
+  Correlation: 0.6113
+  Categories: EM_Country_ETFs <--> Brazil_Stocks
+
+PAIR #300
+  VWO <--> WB
+  Correlation: 0.6108
+  Categories: EM_Broad <--> China_Stocks
+
+PAIR #301
+  BABA <--> WB
+  Correlation: 0.6080
+  Categories: China_Stocks <--> China_Stocks
+
+PAIR #302
+  SCHE <--> WB
+  Correlation: 0.6070
+  Categories: EM_Broad <--> China_Stocks
+
+PAIR #303
+  EEM <--> EWM
+  Correlation: 0.6065
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #304
+  EEMV <--> VALE
+  Correlation: 0.6065
+  Categories: EM_Broad <--> Brazil_Stocks
+
+PAIR #305
+  ASX <--> SCHE
+  Correlation: 0.6063
+  Categories: Taiwan_Stocks <--> EM_Broad
+
+PAIR #306
+  EDIV <--> KWEB
+  Correlation: 0.6061
+  Categories: EM_Broad <--> EM_Country_ETFs
+
+PAIR #307
+  MCHI <--> VIPS
+  Correlation: 0.6060
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #308
+  HDB <--> IBN
+  Correlation: 0.6056
+  Categories: India_Stocks <--> India_Stocks
+
+PAIR #309
+  FXI <--> XPEV
+  Correlation: 0.6055
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #310
+  ASX <--> UMC
+  Correlation: 0.6049
+  Categories: Taiwan_Stocks <--> Taiwan_Stocks
+
+PAIR #311
+  SPEM <--> WB
+  Correlation: 0.6045
+  Categories: EM_Broad <--> China_Stocks
+
+PAIR #312
+  EWZ <--> TIMB
+  Correlation: 0.6042
+  Categories: EM_Country_ETFs <--> Brazil_Stocks
+
+PAIR #313
+  FXI <--> VIPS
+  Correlation: 0.6037
+  Categories: EM_Country_ETFs <--> China_Stocks
+
+PAIR #314
+  BILI <--> VWO
+  Correlation: 0.6035
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #315
+  BILI <--> SCHE
+  Correlation: 0.6034
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #316
+  EWT <--> EZA
+  Correlation: 0.6034
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #317
+  INDY <--> KEMX
+  Correlation: 0.6031
+  Categories: EM_Country_ETFs <--> EM_Sector
+
+PAIR #318
+  BILI <--> SPEM
+  Correlation: 0.6012
+  Categories: China_Stocks <--> EM_Broad
+
+PAIR #319
+  EWS <--> EWY
+  Correlation: 0.6009
+  Categories: EM_Country_ETFs <--> EM_Country_ETFs
+
+PAIR #320
+  ASX <--> SPEM
+  Correlation: 0.6002
+  Categories: Taiwan_Stocks <--> EM_Broad
+
+====================================================================================================
+MEDIUM PRIORITY PAIRS: EM <--> COMMODITIES / DEVELOPED MARKETS
+====================================================================================================
+Cross-asset and cross-market pairs with potential lag opportunities:
+
+PAIR #1
+  COPX <--> EPU
+  Correlation: 0.8405
+  Categories: Commodities_Metals <--> EM_Country_ETFs
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #2
+  KEMX <--> VT
+  Correlation: 0.8309
+  Categories: EM_Sector <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #3
+  KEMX <--> VEA
+  Correlation: 0.8292
+  Categories: EM_Sector <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #4
+  IEMG <--> VEA
+  Correlation: 0.8262
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #5
+  EEM <--> VEA
+  Correlation: 0.8186
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #6
+  EELV <--> VEA
+  Correlation: 0.8176
+  Categories: EM_Sector <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #7
+  IEMG <--> VT
+  Correlation: 0.8107
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #8
+  DEM <--> VEA
+  Correlation: 0.8056
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #9
+  EEM <--> VT
+  Correlation: 0.8040
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #10
+  EFA <--> IEMG
+  Correlation: 0.8033
+  Categories: Developed_Indices <--> EM_Broad
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #11
+  DEM <--> PICK
+  Correlation: 0.8027
+  Categories: EM_Broad <--> Commodities_Metals
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #12
+  SPEM <--> VEA
+  Correlation: 0.8020
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #13
+  EPU <--> PICK
+  Correlation: 0.8015
+  Categories: EM_Country_ETFs <--> Commodities_Metals
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #14
+  EFA <--> KEMX
+  Correlation: 0.8000
+  Categories: Developed_Indices <--> EM_Sector
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #15
+  VEA <--> VWO
+  Correlation: 0.7985
+  Categories: Developed_Indices <--> EM_Broad
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #16
+  EELV <--> EFA
+  Correlation: 0.7978
+  Categories: EM_Sector <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #17
+  EEM <--> EFA
+  Correlation: 0.7962
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #18
+  SCHE <--> VEA
+  Correlation: 0.7945
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #19
+  IEMG <--> PICK
+  Correlation: 0.7936
+  Categories: EM_Broad <--> Commodities_Metals
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #20
+  EEMV <--> VEA
+  Correlation: 0.7931
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #21
+  EEM <--> PICK
+  Correlation: 0.7913
+  Categories: EM_Broad <--> Commodities_Metals
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #22
+  PICK <--> SPEM
+  Correlation: 0.7911
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #23
+  PICK <--> VWO
+  Correlation: 0.7886
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #24
+  PICK <--> SCHE
+  Correlation: 0.7879
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #25
+  DEM <--> EFA
+  Correlation: 0.7866
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #26
+  EWS <--> VEA
+  Correlation: 0.7863
+  Categories: EM_Country_ETFs <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #27
+  SPEM <--> VT
+  Correlation: 0.7847
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #28
+  EFA <--> SPEM
+  Correlation: 0.7836
+  Categories: Developed_Indices <--> EM_Broad
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #29
+  VT <--> VWO
+  Correlation: 0.7806
+  Categories: Developed_Indices <--> EM_Broad
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #30
+  EFA <--> VWO
+  Correlation: 0.7804
+  Categories: Developed_Indices <--> EM_Broad
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #31
+  SCHE <--> VT
+  Correlation: 0.7786
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #32
+  EWT <--> VT
+  Correlation: 0.7786
+  Categories: EM_Country_ETFs <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #33
+  EFA <--> EWS
+  Correlation: 0.7767
+  Categories: Developed_Indices <--> EM_Country_ETFs
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #34
+  EFA <--> SCHE
+  Correlation: 0.7760
+  Categories: Developed_Indices <--> EM_Broad
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #35
+  PICK <--> VALE
+  Correlation: 0.7744
+  Categories: Commodities_Metals <--> Brazil_Stocks
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #36
+  EEMV <--> EFA
+  Correlation: 0.7730
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #37
+  EELV <--> VT
+  Correlation: 0.7522
+  Categories: EM_Sector <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #38
+  EWS <--> VT
+  Correlation: 0.7489
+  Categories: EM_Country_ETFs <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #39
+  TSM <--> XLK
+  Correlation: 0.7486
+  Categories: Taiwan_Stocks <--> Developed_Sectors
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #40
+  DEM <--> VT
+  Correlation: 0.7482
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #41
+  EDIV <--> VEA
+  Correlation: 0.7472
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #42
+  COPX <--> DEM
+  Correlation: 0.7468
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #43
+  KEMX <--> VTI
+  Correlation: 0.7441
+  Categories: EM_Sector <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #44
+  EWT <--> XLK
+  Correlation: 0.7425
+  Categories: EM_Country_ETFs <--> Developed_Sectors
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #45
+  EEMV <--> VT
+  Correlation: 0.7421
+  Categories: EM_Broad <--> Developed_Indices
+  Type: EM-Developed (MEDIUM PRIORITY)
+
+PAIR #46
+  KEMX <--> PICK
+  Correlation: 0.7412
+  Categories: EM_Sector <--> Commodities_Metals
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #47
+  COPX <--> EEM
+  Correlation: 0.7410
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #48
+  COPX <--> IEMG
+  Correlation: 0.7402
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #49
+  COPX <--> SCHE
+  Correlation: 0.7385
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+PAIR #50
+  COPX <--> SPEM
+  Correlation: 0.7380
+  Categories: Commodities_Metals <--> EM_Broad
+  Type: EM-Commodity (MEDIUM PRIORITY)
+
+====================================================================================================
+SUMMARY BY PAIR TYPE
+====================================================================================================
+                               correlation                        
+                                     count    mean     min     max
+pair_type                                                         
+EM-Commodity (MEDIUM PRIORITY)          44  0.6964  0.6005  0.8405
+EM-Developed (MEDIUM PRIORITY)         132  0.6895  0.6009  0.8309
+EM-EM (HIGH PRIORITY)                  320  0.7306  0.6002  0.9973
+EM-Other (MEDIUM PRIORITY)              32  0.6591  0.6001  0.7195
+Non-EM (LOW PRIORITY)                  200  0.6997 -0.9644  0.9964
+
+====================================================================================================
+RESEARCH RECOMMENDATIONS
+====================================================================================================
+
+PHASE 1: Test with high-priority EM-EM pairs
+  → Focus on cross-regional pairs (e.g., China vs Brazil)
+  → Time zone differences create natural lag opportunities
+
+PHASE 2: Commodity-dependent EM economies
+  → Oil-dependent: Brazil (PBR), Mexico (EWW) vs USO/XLE
+  → Mining-dependent: Chile (ECH), Peru (EPU), South Africa (EZA) vs metals
+  → Natural lag: commodity moves first, EM equity responds
+
+PHASE 3: Intraday analysis with Bloomberg data
+  → Measure millisecond-level price discovery lags
+  → Quantify lead-lag relationships
+  → Calculate theoretical arbitrage window
+
+PHASE 4: Machine learning enhancement
+  → Use neural networks to predict lag duration
+  → Feature engineering: volume, volatility, time-of-day
+  → Real-time lag detection system

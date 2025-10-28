@@ -1,0 +1,169 @@
+================================================================================
+CORRELATED ASSET PAIRS ANALYSIS
+Research Project: Emerging Market Inefficiency Detection
+Analysis Date: 2025-10-21 02:48:54
+================================================================================
+
+Total pairs found with correlation > 0.8: 45
+
+================================================================================
+TOP CORRELATED PAIRS
+================================================================================
+
+PAIR #31
+  Assets: SPY <--> VTI
+  Correlation: 0.9964
+  Categories: Indices <--> Indices
+  SPY: S&P 500 ETF
+  VTI: N/A
+
+PAIR #1
+  Assets: BITO <--> GBTC
+  Correlation: 0.9860
+  Categories: Crypto <--> Crypto
+  BITO: N/A
+  GBTC: N/A
+
+PAIR #35
+  Assets: VT <--> VTI
+  Correlation: 0.9740
+  Categories: Indices <--> Indices
+  VT: N/A
+  VTI: N/A
+
+PAIR #28
+  Assets: QQQ <--> XLK
+  Correlation: 0.9713
+  Categories: Indices <--> Sectors
+  QQQ: Nasdaq 100 ETF
+  XLK: N/A
+
+PAIR #30
+  Assets: SPY <--> VT
+  Correlation: 0.9673
+  Categories: Indices <--> Indices
+  SPY: S&P 500 ETF
+  VT: N/A
+
+PAIR #25
+  Assets: QQQ <--> SPY
+  Correlation: 0.9593
+  Categories: Indices <--> Indices
+  QQQ: Nasdaq 100 ETF
+  SPY: S&P 500 ETF
+
+PAIR #27
+  Assets: QQQ <--> VTI
+  Correlation: 0.9514
+  Categories: Indices <--> Indices
+  QQQ: Nasdaq 100 ETF
+  VTI: N/A
+
+PAIR #19
+  Assets: IEF <--> TLT
+  Correlation: 0.9258
+  Categories: Bonds <--> Bonds
+  IEF: N/A
+  TLT: 20+ Year Treasury Bond ETF
+
+PAIR #33
+  Assets: SPY <--> XLK
+  Correlation: 0.9209
+  Categories: Indices <--> Sectors
+  SPY: S&P 500 ETF
+  XLK: N/A
+
+PAIR #26
+  Assets: QQQ <--> VT
+  Correlation: 0.9202
+  Categories: Indices <--> Indices
+  QQQ: Nasdaq 100 ETF
+  VT: N/A
+
+PAIR #24
+  Assets: LQD <--> TLT
+  Correlation: 0.9141
+  Categories: Bonds <--> Bonds
+  LQD: N/A
+  TLT: 20+ Year Treasury Bond ETF
+
+PAIR #42
+  Assets: VTI <--> XLK
+  Correlation: 0.9111
+  Categories: Indices <--> Sectors
+  VTI: N/A
+  XLK: N/A
+
+PAIR #5
+  Assets: DIA <--> VTI
+  Correlation: 0.9072
+  Categories: Indices <--> Indices
+  DIA: N/A
+  VTI: N/A
+
+PAIR #3
+  Assets: DIA <--> SPY
+  Correlation: 0.8967
+  Categories: Indices <--> Indices
+  DIA: N/A
+  SPY: S&P 500 ETF
+
+PAIR #17
+  Assets: IEF <--> LQD
+  Correlation: 0.8954
+  Categories: Bonds <--> Bonds
+  IEF: N/A
+  LQD: N/A
+
+PAIR #7
+  Assets: DIA <--> XLF
+  Correlation: 0.8910
+  Categories: Indices <--> Sectors
+  DIA: N/A
+  XLF: Financial Sector ETF
+
+PAIR #8
+  Assets: DIA <--> XLI
+  Correlation: 0.8901
+  Categories: Indices <--> Sectors
+  DIA: N/A
+  XLI: N/A
+
+PAIR #4
+  Assets: DIA <--> VT
+  Correlation: 0.8889
+  Categories: Indices <--> Indices
+  DIA: N/A
+  VT: N/A
+
+PAIR #41
+  Assets: VTI <--> XLI
+  Correlation: 0.8879
+  Categories: Indices <--> Sectors
+  VTI: N/A
+  XLI: N/A
+
+PAIR #43
+  Assets: VTI <--> XLY
+  Correlation: 0.8879
+  Categories: Indices <--> Sectors
+  VTI: N/A
+  XLY: N/A
+
+================================================================================
+RESEARCH NOTES
+================================================================================
+
+Strong correlations indicate assets that move together, making them
+candidates for pairs trading strategies. For emerging markets research,
+focus on pairs where one asset may have delayed price discovery due to:
+  - Lower trading volume
+  - Time zone differences
+  - Information asymmetry
+  - Market microstructure differences
+
+Next steps:
+  1. Analyze intraday data to detect price lag between pairs
+  2. Measure time-to-adjust after correlated shocks
+  3. Quantify theoretical arbitrage opportunities
+  4. Model transaction costs and slippage

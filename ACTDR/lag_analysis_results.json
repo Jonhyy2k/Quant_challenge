@@ -1,0 +1,106 @@
+[
+  {
+    "asset1": "COPX",
+    "asset2": "EPU",
+    "correlation": 0.5986369068508366,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "VALE",
+    "correlation": 0.54420001077681,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "PICK",
+    "asset2": "DEM",
+    "correlation": 0.5587604722272809,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "GDX",
+    "asset2": "EPU",
+    "correlation": 0.5911791693930057,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "COPX",
+    "asset2": "VALE",
+    "correlation": 0.5602851578169081,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "SID",
+    "asset2": "VALE",
+    "correlation": 0.25334774811211225,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "ITUB",
+    "asset2": "BBD",
+    "correlation": 0.30449566799309197,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "EWZ",
+    "asset2": "ITUB",
+    "correlation": 0.5756840358752342,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "JD",
+    "correlation": 0.7419243677387126,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "BABA",
+    "asset2": "KWEB",
+    "correlation": 0.8832418550797628,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "JD",
+    "asset2": "KWEB",
+    "correlation": 0.8061171334454091,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "EEM",
+    "asset2": "IEMG",
+    "correlation": 0.9775442512483118,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  },
+  {
+    "asset1": "FXI",
+    "asset2": "MCHI",
+    "correlation": 0.9278735506315443,
+    "lag_periods": 0,
+    "leader": "No clear leader",
+    "frequency": "1m"
+  }
+]

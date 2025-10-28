@@ -1,0 +1,371 @@
+====================================================================================================
+LAG DETECTION ANALYSIS - SUMMARY REPORT
+Generated: 2025-10-21 03:24:54
+====================================================================================================
+
+Total pairs analyzed: 13
+
+====================================================================================================
+PAIRS WITH DETECTED LAG: 0
+====================================================================================================
+
+====================================================================================================
+DETAILED RESULTS BY PAIR
+====================================================================================================
+
+PAIR #1: COPX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 244
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.5986
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 144.8701
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: COPX
+  Lag: 2 periods
+
+Response Time Analysis:
+  Mean response: 2.13 periods
+  Median response: 2.00 periods
+  Events analyzed: 111
+
+
+PAIR #2: PICK <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 915
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.5442
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 496.8546
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 3.49 periods
+  Median response: 3.00 periods
+  Events analyzed: 175
+
+
+PAIR #3: PICK <--> DEM
+----------------------------------------------------------------------------------------------------
+Data Points: 408
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.5588
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 226.8568
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 3.96 periods
+  Median response: 3.50 periods
+  Events analyzed: 102
+
+
+PAIR #4: GDX <--> EPU
+----------------------------------------------------------------------------------------------------
+Data Points: 246
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.5912
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 144.2477
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: GDX
+  Lag: 2 periods
+
+Response Time Analysis:
+  Mean response: 2.28 periods
+  Median response: 2.00 periods
+  Events analyzed: 153
+
+
+PAIR #5: COPX <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 1924
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.5603
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 1076.8681
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 3.59 periods
+  Median response: 3.00 periods
+  Events analyzed: 204
+
+
+PAIR #6: SID <--> VALE
+----------------------------------------------------------------------------------------------------
+Data Points: 1665
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.2533
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 421.3173
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: VALE
+  Lag: 5 periods
+
+Response Time Analysis:
+  Mean response: 4.10 periods
+  Median response: 3.00 periods
+  Events analyzed: 584
+
+
+PAIR #7: ITUB <--> BBD
+----------------------------------------------------------------------------------------------------
+Data Points: 1929
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.3045
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 586.7632
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 3.04 periods
+  Median response: 2.00 periods
+  Events analyzed: 294
+
+
+PAIR #8: EWZ <--> ITUB
+----------------------------------------------------------------------------------------------------
+Data Points: 1930
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.5757
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 1109.9188
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 2.80 periods
+  Median response: 2.00 periods
+  Events analyzed: 121
+
+
+PAIR #9: BABA <--> JD
+----------------------------------------------------------------------------------------------------
+Data Points: 1948
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.7419
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 1443.7848
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 3.17 periods
+  Median response: 2.00 periods
+  Events analyzed: 447
+
+
+PAIR #10: BABA <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 1949
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.8832
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 1719.6719
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 3.48 periods
+  Median response: 3.00 periods
+  Events analyzed: 440
+
+
+PAIR #11: JD <--> KWEB
+----------------------------------------------------------------------------------------------------
+Data Points: 1948
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.8061
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 1568.7039
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: KWEB
+  Lag: 15 periods
+
+Response Time Analysis:
+  Mean response: 3.63 periods
+  Median response: 3.00 periods
+  Events analyzed: 347
+
+
+PAIR #12: EEM <--> IEMG
+----------------------------------------------------------------------------------------------------
+Data Points: 1949
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.9775
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 1903.2787
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: EEM
+  Lag: 1 periods
+
+Response Time Analysis:
+  Mean response: 3.87 periods
+  Median response: 4.00 periods
+  Events analyzed: 23
+
+
+PAIR #13: FXI <--> MCHI
+----------------------------------------------------------------------------------------------------
+Data Points: 1883
+Frequency: 1m
+
+Pearson Correlation:
+  Coefficient: 0.9279
+  P-value: 0.000000
+  Significant: True
+
+Cross-Correlation Analysis:
+  Leader: No clear leader
+  Follower: Simultaneous movement
+  Lag: 0 periods (1m)
+  Max Correlation: 1745.3301
+  Time Lag: 0 periods
+
+Granger Causality Test:
+  Leader: Bidirectional causality
+
+Response Time Analysis:
+  Mean response: 4.24 periods
+  Median response: 4.00 periods
+  Events analyzed: 59
+
+
+====================================================================================================
+RESEARCH RECOMMENDATIONS
+====================================================================================================
+
+✗ No significant lag detected at this frequency/timeframe
+
+Considerations:
+  1. Try higher frequency data (tick-level)
+  2. Analyze during volatile market periods
+  3. Consider that markets may be more efficient than hypothesized
+  4. Test with different time windows
+
+====================================================================================================

@@ -1,0 +1,202 @@
+================================================================================
+ACTDR RESEARCH PROJECT - STRATEGY INTENTIONS & OBJECTIVES
+================================================================================
+Date Created: 2025-10-21
+Project: Arbitrage on Correlated Trading with Delayed Response
+
+================================================================================
+CORE HYPOTHESIS
+================================================================================
+
+Emerging market assets exhibit temporary price dislocations in correlated pairs
+due to market inefficiencies. By detecting these lag periods between correlated
+assets, we can identify theoretical arbitrage opportunities.
+
+Key Inefficiencies We're Targeting:
+  - Low trading volume in emerging markets
+  - Low news visibility / information asymmetry
+  - Time zone differences between correlated markets
+  - Market microstructure differences
+  - Different liquidity profiles between asset types
+
+The Mechanism:
+  When two assets are strongly correlated, they should move together. However,
+  in emerging markets, one asset may respond to market information with a delay
+  of milliseconds to seconds after its correlated pair moves. We want to capture
+  this offset and quantify the theoretical profit opportunity.
+
+================================================================================
+TARGET MARKETS & ASSET CLASSES
+================================================================================
+
+PRIMARY FOCUS:
+  1. Emerging Market Equities
+     - Country ETFs: Brazil (EWZ), Mexico (EWW), China (FXI), Peru (EPU), etc.
+     - Individual stocks: Brazilian ADRs (VALE, PBR, ITUB, BBD)
+     - Chinese ADRs: (BABA, JD, BIDU, NIO, XPEV)
+
+  2. Commodities (as leading indicators for EM)
+     - Metals: COPX (Copper), PICK (Global Metals), GDX/GDXJ (Gold Miners)
+     - Energy: USO (Oil), XLE (Energy Sector)
+     - Why: EM economies are commodity-dependent; commodity moves should
+       predict EM equity moves with measurable lag
+
+  3. Cross-Listed Assets
+     - Brazilian ADRs trading on both NYSE and B3
+     - Dual-listed creates natural arbitrage opportunities
+
+GEOGRAPHIC FOCUS:
+  - Latin America: Brazil, Mexico, Chile, Peru
+  - Asia: China, India, Taiwan, South Korea
+  - Reason: Different time zones + varying market efficiency levels
+
+================================================================================
+METHODOLOGY
+================================================================================
+
+PHASE 1: Correlation Discovery [COMPLETED]
+  ✓ Analyzed 142 emerging market assets
+  ✓ Found 728 pairs with correlation > 0.6
+  ✓ Identified 320 pure EM-EM pairs
+  ✓ Identified 43 commodity-EM pairs (HIGHEST PRIORITY)
+
+PHASE 2: Lag Detection [NEXT STEP]
+  → Use Bloomberg blpapi for intraday/tick data
+  → Measure time lag between correlated price movements
+  → Focus on:
+     - COPX <--> EPU (Copper vs Peru) - Correlation: 0.84
+     - PICK <--> VALE (Metals vs Mining) - Correlation: 0.77
+     - PICK <--> DEM (Metals vs EM Broad) - Correlation: 0.80
+     - Brazilian stock pairs (VALE/SID, ITUB/BBD)
+     - Chinese tech pairs (BABA/JD, KWEB basket)
+
+  → Quantify:
+     - How many milliseconds/seconds of lag?
+     - How consistent is the lag?
+     - What's the theoretical profit per lag event?
+
+PHASE 3: Strategy Simulation
+  → Model the theoretical arbitrage capture
+  → Include transaction costs, slippage, bid-ask spreads
+  → Calculate theoretical returns (even if negative after costs)
+  → Document why it works or doesn't work
+
+PHASE 4: Machine Learning Enhancement [FUTURE]
+  → Build neural network to predict lag events
+  → Feature engineering: volume, volatility, time-of-day, macro events
+  → Real-time lag detection system
+  → Note: Only pursue this AFTER proving lag exists in Phase 2
+
+================================================================================
+TOP PRIORITY PAIRS FOR BLOOMBERG ANALYSIS
+================================================================================
+
+Commodity-Dependent (Highest Priority):
+  1. COPX (Copper Miners) <--> EPU (Peru ETF)          - Corr: 0.8405
+  2. PICK (Metal Miners)  <--> VALE (Vale Mining)      - Corr: 0.7744
+  3. PICK (Metal Miners)  <--> DEM (EM Dividend)       - Corr: 0.8027
+  4. COPX (Copper)        <--> VALE (Vale)             - Corr: 0.6611
+  5. GDX/GDXJ (Gold)      <--> EPU (Peru)              - Corr: 0.69
+
+Brazilian Stock Pairs:
+  6. SID (Steel)          <--> VALE (Mining)           - Corr: 0.7253
+  7. ITUB (Bank)          <--> BBD (Bank)              - Corr: 0.7140
+  8. EWZ (Brazil ETF)     <--> ITUB (Itau Bank)        - Corr: 0.8299
+
+Chinese Stock Pairs:
+  9. BABA (Alibaba)       <--> JD (JD.com)             - Corr: 0.7316
+ 10. BABA                 <--> KWEB (China Internet)   - Corr: 0.8284
+ 11. JD                   <--> KWEB                    - Corr: 0.8297
+
+Broad EM Pairs (control group):
+ 12. EEM <--> IEMG (Broad EM ETFs)                     - Corr: 0.9973
+ 13. FXI <--> MCHI (China ETFs)                        - Corr: 0.9839
+
+================================================================================
+KEY RESEARCH QUESTIONS
+================================================================================
+
+1. Do commodity price movements predict EM equity movements with measurable lag?
+   → Hypothesis: Copper moves first, Peru ETF (EPU) responds 100ms-5s later
+
+2. Do individual EM stocks lag behind their sector ETFs during rebalancing?
+   → Hypothesis: BABA moves, KWEB rebalances with delay
+
+3. Do dual-listed ADRs exhibit arbitrage windows between US and home exchanges?
+   → Hypothesis: VALE NYSE vs B3 pricing differential during overlapping hours
+
+4. How do transaction costs compare to theoretical arbitrage profits?
+   → Calculate: spread + slippage + latency cost vs profit per trade
+
+5. Can machine learning improve lag prediction accuracy?
+   → Only test after establishing that lag exists in raw data
+
+================================================================================
+DATA REQUIREMENTS
+================================================================================
+
+Bloomberg API Access Needed:
+  - Intraday tick data (sub-second level if possible)
+  - At minimum: 1-second or 1-minute bars
+  - Historical period: 6-12 months
+  - Assets: Top 10-15 pairs listed above
+
+Alternative if Bloomberg too expensive:
+  - Interactive Brokers API (real-time quotes)
+  - Polygon.io (second-level data)
+  - Alpha Vantage (minute-level, limited)
+
+================================================================================
+SUCCESS CRITERIA (Research Perspective)
+================================================================================
+
+This is a RESEARCH project, not a production trading strategy.
+Success is measured by documented findings, not P&L.
+
+SUCCESS Scenarios:
+  ✓ We prove lag exists and quantify it precisely
+  ✓ We prove lag doesn't exist (negative result is still valuable research)
+  ✓ We document why arbitrage is/isn't feasible after costs
+  ✓ We contribute to academic understanding of EM market efficiency
+
+Does NOT Require:
+  ✗ Profitable trading strategy
+  ✗ Positive returns after costs
+  ✗ Deployable production system
+
+The goal is to TEST THE HYPOTHESIS and document findings rigorously.
+
+================================================================================
+NEXT IMMEDIATE STEPS
+================================================================================
+
+1. Obtain Bloomberg blpapi access or alternative data source
+2. Download tick/intraday data for top 10 pairs
+3. Build lag detection algorithm:
+   - Lead-lag correlation analysis
+   - Cross-correlation functions
+   - Time series causality tests (Granger causality)
+4. Measure and document results
+5. Write research report with findings
+
+================================================================================
+NOTES & REMINDERS
+================================================================================
+
+- The strategy focuses on EMERGING MARKETS specifically for inefficiency
+- Correlation threshold used: > 0.6 (not just perfect correlation)
+- Total universe analyzed: 142 assets → 129 valid → 728 pairs found
+- Most promising: Commodity-EM pairs (natural lead-lag relationship)
+- Remember: Even millisecond lags require HFT infrastructure for actual trading
+- For research: Document theoretical opportunity, not trading implementation
+
+Files Generated:
+  - find_correlated_pairs.py (initial broad analysis)
+  - emerging_markets_correlation.py (comprehensive EM focus)
+  - correlated_pairs_findings.txt (first 45 pairs, all assets)
+  - em_correlation_report.txt (320 EM pairs, detailed)
+  - em_pairs_detailed.csv (all 728 pairs with categories)
+
+================================================================================
+END OF STRATEGY DOCUMENT
+================================================================================
