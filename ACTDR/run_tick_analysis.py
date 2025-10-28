@@ -15,7 +15,10 @@ Specific time window (intraday):
 Multiple trading days:
     python run_tick_analysis.py --pair COPX,EPU --start-date 2025-01-13 --end-date 2025-01-17
 
-Batch analysis (top pairs):
+Batch analysis (all pairs):
+    python run_tick_analysis.py --all-pairs --date 2025-01-15
+
+Batch analysis (top N pairs):
     python run_tick_analysis.py --top 5 --date 2025-01-15
 
 Sample data (for testing):
@@ -418,6 +421,9 @@ Examples:
   # Sample data (first 1000 ticks only)
   python run_tick_analysis.py --pair JD,KWEB --date 2025-01-15 --sample 1000
 
+  # All pairs (be careful - lots of data!)
+  python run_tick_analysis.py --all-pairs --date 2025-01-15 --start-time "09:30:00" --end-time "10:00:00"
+
   # Top 3 pairs (be careful - lots of data!)
   python run_tick_analysis.py --top 3 --date 2025-01-15 --start-time "09:30:00" --end-time "10:00:00"
         """
@@ -425,6 +431,7 @@ Examples:
 
     parser.add_argument('--pair', type=str, help='Single pair to analyze (e.g., JD,KWEB)')
     parser.add_argument('--top', type=int, help='Analyze top N pairs from default list')
+    parser.add_argument('--all-pairs', action='store_true', help='Analyze all pairs from default list')
 
     # Date options
     parser.add_argument('--date', type=str, help='Single date to analyze (YYYY-MM-DD)')
@@ -457,11 +464,14 @@ Examples:
         ticker1, ticker2 = args.pair.split(',')
         pairs = [(ticker1.strip(), ticker2.strip())]
         print(f"\nAnalyzing single pair: {pairs[0][0]} <--> {pairs[0][1]}")
+    elif args.all_pairs:
+        pairs = TOP_PAIRS
+        print(f"\nAnalyzing all {len(pairs)} pairs from default list")
     elif args.top:
         pairs = TOP_PAIRS[:args.top]
         print(f"\nAnalyzing top {args.top} pairs")
     else:
-        print("\n✗ Error: Must specify --pair or --top")
+        print("\n✗ Error: Must specify --pair, --top, or --all-pairs")
         parser.print_help()
         return
 
