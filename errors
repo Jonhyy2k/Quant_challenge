@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\run_tick_analysis.py", line 589, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\run_tick_analysis.py", line 573, in main
+    json.dump(json_results, f, indent=2)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py", line 407, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py", line 440, in _iterencode
+    o = _default(o)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
