@@ -1,19 +1,22 @@
-  Silver (4 remaining):
-  python run_tick_analysis.py --pair AG,HOC LN --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair AG,FRES LN --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair PAAS,HOC LN --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair PAAS,FRES LN --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair HOC LN,FRES LN --start-date 2025-01-13 --end-date 2025-01-20
 
-  Rare metals (5 remaining):
-  python run_tick_analysis.py --pair MP,LYC AU --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair MP,ARU AU --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair LYC AU,REMX --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair LYC AU,ARU AU --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair REMX,ARU AU --start-date 2025-01-13 --end-date 2025-01-20
-
-  Sugar (all 3):
-  python run_tick_analysis.py --pair CSAN3 BZ,EIDPARRY IN --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair CSAN3 BZ,SGR US --start-date 2025-01-13 --end-date 2025-01-20
-  python run_tick_analysis.py --pair EIDPARRY IN,SGR US --start-date 2025-01-13 --end-date 2025-01-20
-
+File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 496, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 471, in main
+    results = run_backtest(
+        args.pair1, args.pair2,
+    ...<3 lines>...
+        position_size=args.position_size
+    )
+  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 351, in run_backtest
+    results = backtester.backtest(data1, data2, lag_info)
+  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 235, in backtest
+    equity_series = pd.Series(equity_curve, index=signals.index)
+  File "C:\Users\s2516558\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\series.py", line 578, in __init__
+    com.require_length_match(data, index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\s2516558\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (15680) does not match length of index (15679)
