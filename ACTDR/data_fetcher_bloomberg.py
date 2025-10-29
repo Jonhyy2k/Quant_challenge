@@ -317,13 +317,26 @@ def get_bloomberg_ticker(symbol):
     Parameters:
     -----------
     symbol : str
-        Simple ticker symbol (e.g., 'VALE')
+        Simple ticker symbol (e.g., 'VALE', 'CSAN3 BZ', 'HOC LN')
 
     Returns:
     --------
-    str : Bloomberg ticker (e.g., 'VALE US Equity')
+    str : Bloomberg ticker (e.g., 'VALE US Equity', 'CSAN3 BZ Equity', 'HOC LN Equity')
     """
-    return BLOOMBERG_TICKERS.get(symbol, f"{symbol} US Equity")
+    # Check if already in dictionary
+    if symbol in BLOOMBERG_TICKERS:
+        return BLOOMBERG_TICKERS[symbol]
+
+    # Check if ticker already has exchange suffix
+    exchange_suffixes = [' LN', ' AU', ' BZ', ' IN', ' JP', ' HK', ' FP', ' GR']
+
+    for suffix in exchange_suffixes:
+        if symbol.endswith(suffix):
+            # Already has exchange suffix, just add " Equity"
+            return f"{symbol} Equity"
+
+    # No exchange suffix found, assume US
+    return f"{symbol} US Equity"
 
 
 if __name__ == "__main__":
