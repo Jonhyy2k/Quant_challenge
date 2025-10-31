@@ -1,22 +1,11 @@
+PS C:\Users\s2516558\Quant_challenge\ACTDR> python backtester.py --pair1 "AAPL US Equity" --pair2 "NVDA US Equtiy" --start-date 2025-01-01 --end-date 2025-10-28
+Testing Bloomberg connection...
+======================================================================
+✓ Connected to Bloomberg Terminal
 
-File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 496, in <module>
-    main()
-    ~~~~^^
-  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 471, in main
-    results = run_backtest(
-        args.pair1, args.pair2,
-    ...<3 lines>...
-        position_size=args.position_size
-    )
-  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 351, in run_backtest
-    results = backtester.backtest(data1, data2, lag_info)
-  File "C:\Users\s2516558\Downloads\Quant_challenge-master\ACTDR\backtester.py", line 235, in backtest
-    equity_series = pd.Series(equity_curve, index=signals.index)
-  File "C:\Users\s2516558\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\series.py", line 578, in __init__
-    com.require_length_match(data, index)
-    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-  File "C:\Users\s2516558\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\common.py", line 573, in require_length_match
-    raise ValueError(
-    ...<4 lines>...
-    )
-ValueError: Length of values (15680) does not match length of index (15679)
+✓ Bloomberg connection successful!
+
+To fetch data, use:
+  data = fetcher.get_intraday_bars('VALE US Equity', '2025-01-15', '2025-01-20', interval_minutes=1)
+✓ Disconnected from Bloomberg
+PS C:\Users\s2516558\Quant_challenge\ACTDR> 
