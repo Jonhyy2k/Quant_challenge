@@ -14,6 +14,15 @@ Option 2: Use Bloomberg (high-quality data)
 
 Option 3: Analyze specific pair
     python run_lag_analysis.py --source yfinance --pair VALE,GDX --days 7
+
+IMPORTANT - Bloomberg Tickers:
+==============================
+When using --source bloomberg with --pair, you MUST provide the FULL Bloomberg ticker format
+including exchange and asset type.
+
+Examples:
+    python run_lag_analysis.py --source bloomberg --pair "VALE US Equity,GDX US Equity" --start 2025-01-15 --end 2025-01-20
+    python run_lag_analysis.py --source bloomberg --pair "HOC LN Equity,FRES LN Equity" --start 2025-01-15 --end 2025-01-20
 """
 
 import argparse
@@ -25,7 +34,7 @@ import json
 
 from lag_detection import LagDetector, convert_lag_to_time
 from data_fetcher_yfinance import fetch_pair_data_yfinance
-from data_fetcher_bloomberg import fetch_pair_data_bloomberg, get_bloomberg_ticker
+from data_fetcher_bloomberg import fetch_pair_data_bloomberg
 from lag_visualization import plot_comprehensive_analysis, create_summary_dashboard
 
 TOP_PAIRS = [
@@ -76,11 +85,11 @@ def analyze_pair(ticker1, ticker2, data_source='yfinance', **kwargs):
         end_date = kwargs.get('end_date')
         interval_minutes = kwargs.get('interval_minutes', 1)
 
-        bb_ticker1 = get_bloomberg_ticker(ticker1)
-        bb_ticker2 = get_bloomberg_ticker(ticker2)
+        print(f"Fetching data for {ticker1}...")
+        print(f"Fetching data for {ticker2}...")
 
         data1, data2 = fetch_pair_data_bloomberg(
-            bb_ticker1, bb_ticker2,
+            ticker1, ticker2,
             start_date, end_date,
             interval_minutes=interval_minutes
         )
